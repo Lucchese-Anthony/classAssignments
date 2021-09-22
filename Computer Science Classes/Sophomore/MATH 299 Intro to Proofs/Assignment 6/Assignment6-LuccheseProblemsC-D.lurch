@@ -1,0 +1,2012 @@
+<OMATTR>
+  <OMATP>
+    <OMS cd="LurchCore" name="title"/>
+    <OMSTR>Assignment6-Lucchese</OMSTR>
+    <OMS cd="LurchCore" name="author"/>
+    <OMSTR>Anthony</OMSTR>
+    <OMS cd="LurchCore" name="language"/>
+    <OMSTR></OMSTR>
+    <OMS cd="LurchCore" name="version"/>
+    <OMSTR>0</OMSTR>
+    <OMS cd="LurchCore" name="dependencies"/>
+    <OMSTR>urn:publicid:-:lurch.sourceforge.net:Ruleset%20-%20Propositional%20Logic+by+Ken%20Monks::0 urn:publicid:-:lurch.sourceforge.net:Ruleset%20-%20Copy+by+Ken%20Monks::0 urn:publicid:-:lurch.sourceforge.net:Topic%20-%20Meaningful%20Documents+by+ncarter%40bentley.edu::0</OMSTR>
+    <OMS cd="LurchUI" name="defaultFontSize"/>
+    <OMF hex="0000000000002840"/>
+    <OMS cd="MathCore" name="ShowGroupers"/>
+    <OMSTR>true</OMSTR>
+    <OMS cd="MathCore" name="AutoValidation"/>
+    <OMSTR>true</OMSTR>
+    <OMS cd="MathCore" name="ShowValidation"/>
+    <OMSTR>true</OMSTR>
+  </OMATP>
+  <OMA>
+    <OMS cd="LurchCore" name="document"/>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMSTR>Anthony Lucchese</OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMSTR>Collaborated with: Kyle Hromisin</OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMSTR>Assignment #6</OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>indent{1}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>indent{1}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMATTR>
+        <OMATP>
+          <OMS cd="LurchUI" name="charFormat"/>
+          <OMSTR>weight{75}</OMSTR>
+        </OMATP>
+        <OMSTR>Theorem:</OMSTR>
+      </OMATTR>
+      <OMSTR> P or &#x00ac;P </OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMSTR>NOT CORRECT</OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMATTR>
+        <OMATP>
+          <OMS cd="LurchUI" name="charFormat"/>
+          <OMSTR>weight{75}</OMSTR>
+        </OMATP>
+        <OMSTR>Proof:</OMSTR>
+      </OMATTR>
+      <OMSTR> </OMSTR>
+    </OMA>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}new{T}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	Assume </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>1.</OMSTR>
+              <OMSTR>1</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMA>
+              <OMS cd="logic" name="not"/>
+              <OMV name="P"/>
+            </OMA>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x00ac;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>				-</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>		Assume </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>2.</OMSTR>
+              <OMSTR>2</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMA>
+              <OMS cd="logic" name="not"/>
+              <OMA>
+                <OMS cd="logic" name="not"/>
+                <OMV name="P"/>
+              </OMA>
+            </OMA>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x00ac;&#x00ac;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>			</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>		</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>4.</OMSTR>
+              <OMSTR>4</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMV name="contradiction"/>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x2192;&#x2190;</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>5.</OMSTR>
+              <OMSTR>5</OMSTR>
+            </OMA>
+            <OMS cd="LurchCore" name="ID"/>
+            <OMSTR>id3336</OMSTR>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>This is an undischarged premise.</OMSTR>
+                  </OMATP>
+                  <OMSTR>intermediate</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMV name="P"/>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>					</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>6.</OMSTR>
+              <OMSTR>6</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>The cited rule justifies this expression.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMA>
+                <OMS cd="logic" name="or"/>
+                <OMV name="P"/>
+                <OMA>
+                  <OMS cd="logic" name="not"/>
+                  <OMV name="P"/>
+                </OMA>
+              </OMA>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR> </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>or</OMSTR>
+        </OMATTR>
+        <OMSTR> &#x00ac;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>							by </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>reason</OMSTR>
+              </OMA>
+              <OMSTR>reason</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="reason"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>reason</OMSTR>
+                  </OMATP>
+                  <OMSTR>or+</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>or+</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>or+</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+        <OMSTR>;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>premise</OMSTR>
+              </OMA>
+              <OMSTR>premise</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="premise"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>ID</OMSTR>
+                  </OMATP>
+                  <OMSTR>id3336</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>5.</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>5.</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMATTR>
+        <OMATP>
+          <OMS cd="LurchUI" name="charFormat"/>
+          <OMSTR>weight{75}</OMSTR>
+        </OMATP>
+        <OMSTR>Theorem: </OMSTR>
+      </OMATTR>
+      <OMSTR>P&#x21d2;Q&#x21d4;&#x00ac;P or Q</OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMSTR>NOT CORRECT</OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMATTR>
+        <OMATP>
+          <OMS cd="LurchUI" name="charFormat"/>
+          <OMSTR>weight{75}</OMSTR>
+        </OMATP>
+        <OMSTR>Proof:</OMSTR>
+      </OMATTR>
+      <OMSTR> </OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}new{T}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>		Assume </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>1.</OMSTR>
+              <OMSTR>1</OMSTR>
+            </OMA>
+            <OMS cd="LurchCore" name="ID"/>
+            <OMSTR>id3084</OMSTR>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>This premise is correctly discharged.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMA>
+                <OMS cd="logic" name="implies"/>
+                <OMV name="P"/>
+                <OMV name="Q"/>
+              </OMA>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR> &#x21d2;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>				-</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>				Assume </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>2.</OMSTR>
+              <OMSTR>2</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>This is an undischarged premise.</OMSTR>
+                  </OMATP>
+                  <OMSTR>intermediate</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMA>
+                <OMS cd="logic" name="not"/>
+                <OMA>
+                  <OMS cd="logic" name="implies"/>
+                  <OMV name="P"/>
+                  <OMV name="Q"/>
+                </OMA>
+              </OMA>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x00ac;(</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR>&#x21d2;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMSTR>)</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>				</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>3.</OMSTR>
+              <OMSTR>3</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>The cited rule justifies this expression.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMV name="contradiction"/>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x2192;&#x2190; </OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>							by </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>reason</OMSTR>
+              </OMA>
+              <OMSTR>reason</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="reason"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>reason</OMSTR>
+                  </OMATP>
+                  <OMSTR>&#x2192;&#x2190;+</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>&#x2192;&#x2190;+</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x2192;&#x2190;+</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>				</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>4.</OMSTR>
+              <OMSTR>4</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>The cited rule justifies this expression.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMA>
+                <OMS cd="logic" name="implies"/>
+                <OMV name="P"/>
+                <OMV name="Q"/>
+              </OMA>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR>&#x21d2;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>						by</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>reason</OMSTR>
+              </OMA>
+              <OMSTR>reason</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="reason"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>reason</OMSTR>
+                  </OMATP>
+                  <OMSTR>copy</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>copy</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>copy</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>premise</OMSTR>
+              </OMA>
+              <OMSTR>premise</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="premise"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>ID</OMSTR>
+                  </OMATP>
+                  <OMSTR>id3084</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>1</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>1</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>			</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>5.</OMSTR>
+              <OMSTR>5</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>This is an undischarged premise.</OMSTR>
+                  </OMATP>
+                  <OMSTR>intermediate</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMV name="Q"/>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>		</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>6.</OMSTR>
+              <OMSTR>6</OMSTR>
+            </OMA>
+            <OMS cd="LurchCore" name="ID"/>
+            <OMSTR>id3093</OMSTR>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>The cited rule justifies this expression.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMA>
+                <OMS cd="logic" name="or"/>
+                <OMA>
+                  <OMS cd="logic" name="not"/>
+                  <OMV name="P"/>
+                </OMA>
+                <OMV name="Q"/>
+              </OMA>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x00ac;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR> </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>or</OMSTR>
+        </OMATTR>
+        <OMSTR> </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>						by </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>reason</OMSTR>
+              </OMA>
+              <OMSTR>reason</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="reason"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>reason</OMSTR>
+                  </OMATP>
+                  <OMSTR>or+</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>or+</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>or+</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>7.</OMSTR>
+              <OMSTR>7</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>The cited rule justifies this expression.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMA>
+                <OMS cd="logic" name="implies"/>
+                <OMA>
+                  <OMS cd="logic" name="implies"/>
+                  <OMV name="P"/>
+                  <OMV name="Q"/>
+                </OMA>
+                <OMA>
+                  <OMS cd="logic" name="or"/>
+                  <OMA>
+                    <OMS cd="logic" name="not"/>
+                    <OMV name="P"/>
+                  </OMA>
+                  <OMV name="Q"/>
+                </OMA>
+              </OMA>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR>&#x21d2;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMSTR>&#x21d2;&#x00ac;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR> </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>or</OMSTR>
+        </OMATTR>
+        <OMSTR> </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>					by </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>reason</OMSTR>
+              </OMA>
+              <OMSTR>reason</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="reason"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>reason</OMSTR>
+                  </OMATP>
+                  <OMSTR>&#x21d2;+</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>&#x21d2;+</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x21d2;+</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>premise</OMSTR>
+              </OMA>
+              <OMSTR>premise</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="premise"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>ID</OMSTR>
+                  </OMATP>
+                  <OMSTR>id3084</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>1</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>1</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>premise</OMSTR>
+              </OMA>
+              <OMSTR>premise</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="premise"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>ID</OMSTR>
+                  </OMATP>
+                  <OMSTR>id3093</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>6.</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>6.</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>		Assume </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>8.</OMSTR>
+              <OMSTR>8</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>This premise is correctly discharged.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMA>
+                <OMS cd="logic" name="or"/>
+                <OMA>
+                  <OMS cd="logic" name="not"/>
+                  <OMV name="P"/>
+                </OMA>
+                <OMV name="Q"/>
+              </OMA>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x00ac;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR> </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>or</OMSTR>
+        </OMATTR>
+        <OMSTR> </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>			Assume </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>9.</OMSTR>
+              <OMSTR>9</OMSTR>
+            </OMA>
+            <OMS cd="LurchCore" name="ID"/>
+            <OMSTR>id3325</OMSTR>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>This premise is correctly discharged.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMV name="P"/>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>				</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>10.</OMSTR>
+              <OMSTR>10</OMSTR>
+            </OMA>
+            <OMS cd="LurchCore" name="ID"/>
+            <OMSTR>id3308</OMSTR>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>One of the cited premises is not accessible to the desired conclusion.</OMSTR>
+                  </OMATP>
+                  <OMSTR>invalid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMA>
+                <OMS cd="logic" name="implies"/>
+                <OMV name="P"/>
+                <OMV name="Q"/>
+              </OMA>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR>&#x21d2;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>				by </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>reason</OMSTR>
+              </OMA>
+              <OMSTR>reason</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="reason"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>reason</OMSTR>
+                  </OMATP>
+                  <OMSTR>copy</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>copy</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>copy</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>premise</OMSTR>
+              </OMA>
+              <OMSTR>premise</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="premise"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>ID</OMSTR>
+                  </OMATP>
+                  <OMSTR>id3084</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>1</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>1</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>			</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>11.</OMSTR>
+              <OMSTR>11</OMSTR>
+            </OMA>
+            <OMS cd="LurchCore" name="ID"/>
+            <OMSTR>id3334</OMSTR>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>The cited rule justifies this expression.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMV name="Q"/>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>						by </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>reason</OMSTR>
+              </OMA>
+              <OMSTR>reason</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="reason"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>reason</OMSTR>
+                  </OMATP>
+                  <OMSTR>&#x21d2;-</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>&#x21d2;-</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x21d2;-</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>premise</OMSTR>
+              </OMA>
+              <OMSTR>premise</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="premise"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>ID</OMSTR>
+                  </OMATP>
+                  <OMSTR>id3308</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>10.</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>10.</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>		</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>12.</OMSTR>
+              <OMSTR>12</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>The cited rule justifies this expression.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMA>
+                <OMS cd="logic" name="implies"/>
+                <OMV name="P"/>
+                <OMV name="Q"/>
+              </OMA>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR> &#x21d2; </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>						by</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>reason</OMSTR>
+              </OMA>
+              <OMSTR>reason</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="reason"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>reason</OMSTR>
+                  </OMATP>
+                  <OMSTR>&#x21d2;+</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>&#x21d2;+</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x21d2;+</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>premise</OMSTR>
+              </OMA>
+              <OMSTR>premise</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="premise"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>ID</OMSTR>
+                  </OMATP>
+                  <OMSTR>id3325</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>9.</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>9.</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>premise</OMSTR>
+              </OMA>
+              <OMSTR>premise</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="premise"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>ID</OMSTR>
+                  </OMATP>
+                  <OMSTR>id3334</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>11.</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>11.</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="listFormat"/>
+        <OMSTR>style{-4}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Label"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMSTR>13.</OMSTR>
+              <OMSTR>13</OMSTR>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Meaningful Expression</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="GroupersPackage" name="Validated"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="GroupersPackage" name="message"/>
+                    <OMSTR>The cited rule justifies this expression.</OMSTR>
+                  </OMATP>
+                  <OMSTR>valid</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMA>
+                <OMS cd="logic" name="implies"/>
+                <OMA>
+                  <OMS cd="logic" name="or"/>
+                  <OMA>
+                    <OMS cd="logic" name="not"/>
+                    <OMV name="P"/>
+                  </OMA>
+                  <OMV name="Q"/>
+                </OMA>
+                <OMA>
+                  <OMS cd="logic" name="implies"/>
+                  <OMV name="P"/>
+                  <OMV name="Q"/>
+                </OMA>
+              </OMA>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x00ac;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR> </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>or</OMSTR>
+        </OMATTR>
+        <OMSTR> </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMSTR> &#x21d2; (</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>P</OMSTR>
+        </OMATTR>
+        <OMSTR>&#x21d2;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Q</OMSTR>
+        </OMATTR>
+        <OMSTR>)</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Meaningful Expression</OMSTR>
+        </OMA>
+        <OMSTR>					by </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="MathCore" name="Sharing"/>
+            <OMI>-1</OMI>
+            <OMS cd="MathCore" name="HiddenKey"/>
+            <OMA>
+              <OMS cd="LobUtilitiesPackage" name="List"/>
+              <OMA>
+                <OMS cd="GroupersPackage" name="OpenGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+                <OMSTR>reason</OMSTR>
+              </OMA>
+              <OMSTR>reason</OMSTR>
+              <OMA>
+                <OMS cd="GroupersPackage" name="CloseGroup"/>
+                <OMSTR>Meaningful Expression</OMSTR>
+              </OMA>
+            </OMA>
+          </OMATP>
+          <OMA>
+            <OMS cd="GroupersPackage" name="OpenGroup"/>
+            <OMSTR>Property</OMSTR>
+            <OMATTR>
+              <OMATP>
+                <OMS cd="MathCore" name="PropertyKey"/>
+                <OMS cd="MathCore" name="reason"/>
+                <OMS cd="MathCore" name="Global"/>
+                <OMSTR>true</OMSTR>
+                <OMS cd="MathCore" name="Reference"/>
+                <OMATTR>
+                  <OMATP>
+                    <OMS cd="LurchCore" name="reference"/>
+                    <OMSTR>reason</OMSTR>
+                  </OMATP>
+                  <OMSTR>&#x21d2;+</OMSTR>
+                </OMATTR>
+              </OMATP>
+              <OMSTR>&#x21d2;+</OMSTR>
+            </OMATTR>
+          </OMA>
+        </OMATTR>
+        <OMSTR>&#x21d2;+</OMSTR>
+        <OMA>
+          <OMS cd="GroupersPackage" name="CloseGroup"/>
+          <OMSTR>Property</OMSTR>
+        </OMA>
+      </OMA>
+    </OMATTR>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+  </OMA>
+</OMATTR>

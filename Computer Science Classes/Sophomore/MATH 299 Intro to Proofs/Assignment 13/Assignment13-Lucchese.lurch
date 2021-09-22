@@ -1,0 +1,623 @@
+<OMATTR>
+  <OMATP>
+    <OMS cd="LurchCore" name="title"/>
+    <OMSTR>Assignment13-Lucchese</OMSTR>
+    <OMS cd="LurchCore" name="author"/>
+    <OMSTR>Anthony</OMSTR>
+    <OMS cd="LurchCore" name="language"/>
+    <OMSTR></OMSTR>
+    <OMS cd="LurchCore" name="version"/>
+    <OMSTR>0</OMSTR>
+    <OMS cd="LurchCore" name="dependencies"/>
+    <OMSTR>urn:publicid:-:lurch.sourceforge.net:Ruleset%20-%20Number%20Theory%20%28basics%29+by+Ken%20Monks::0 urn:publicid:-:lurch.sourceforge.net:Topic%20-%20Number%20Theory+by+Ken%20Monks::0</OMSTR>
+    <OMS cd="LurchUI" name="defaultFontSize"/>
+    <OMF hex="0000000000002a40"/>
+  </OMATP>
+  <OMA>
+    <OMS cd="LurchCore" name="document"/>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMSTR>Assignment #13</OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMSTR>Anthony Lucchese</OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+      <OMSTR>Collaborators: Kyle Hromisin</OMSTR>
+    </OMA>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>weight{75}</OMSTR>
+          </OMATP>
+          <OMSTR>Theorem:</OMSTR>
+        </OMATTR>
+        <OMSTR> if z is a natural number, then z</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>vertical{1}</OMSTR>
+          </OMATP>
+          <OMSTR>1</OMSTR>
+        </OMATTR>
+        <OMSTR>=z</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	Assume z is a natural number</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	z</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>vertical{1}</OMSTR>
+          </OMATP>
+          <OMSTR>n +1 </OMSTR>
+        </OMATTR>
+        <OMSTR> = z &#x22c5; z</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>vertical{1}</OMSTR>
+          </OMATP>
+          <OMSTR>n</OMSTR>
+        </OMATTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	z</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>vertical{1}</OMSTR>
+          </OMATP>
+          <OMSTR>0 + 1</OMSTR>
+        </OMATTR>
+        <OMSTR> = z &#x22c5; z</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>vertical{1}</OMSTR>
+          </OMATP>
+          <OMSTR>0			</OMSTR>
+        </OMATTR>
+        <OMSTR>by substitution</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	z</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>vertical{1}</OMSTR>
+          </OMATP>
+          <OMSTR>1</OMSTR>
+        </OMATTR>
+        <OMSTR>     = z &#x22c5; z</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>vertical{1}</OMSTR>
+          </OMATP>
+          <OMSTR>0</OMSTR>
+        </OMATTR>
+        <OMSTR>			by additive identity</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	        = z &#x22c5; 1				by first definition of powers</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	        = z				by multiplicative identity</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	&#x2190;</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>&#x2200;z, z</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>vertical{1}</OMSTR>
+          </OMATP>
+          <OMSTR>1</OMSTR>
+        </OMATTR>
+        <OMSTR> = z</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>weight{75}</OMSTR>
+          </OMATP>
+          <OMSTR>Theorem:</OMSTR>
+        </OMATTR>
+        <OMSTR> For all natural numbers m, n, and p, if m + p = n + p then m = n</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	Assume m, n and p are natural numbers</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>		</OMSTR>
+        <OMSTR>m + p = n + p </OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	m = n								</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>&#x2200;m, &#x2200;n, &#x2200;p, m + p = n + p &#x21d2; m = n					by &#x2200;+</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>weight{75}</OMSTR>
+          </OMATP>
+          <OMSTR>Theorem:</OMSTR>
+        </OMATTR>
+        <OMSTR> For all natural numbers m and n, if m &#x2260; 0 and m &#x22c5; n = 0 then n = 0</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	Assume m and n are natural numbers</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	m &#x2260; 0 and m &#x22c5; n = 0</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	n = 0</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>weight{75}</OMSTR>
+          </OMATP>
+          <OMSTR>Theorem:</OMSTR>
+        </OMATTR>
+        <OMSTR> For all natural numbers m and n, if m &#x2264; n and n &#x2264; m then m = n</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	Assume m and n are natural numbers</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	m &#x2264; n and n &#x2264; m </OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	m + k = n						by ineq </OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	n + x = m						by ineq</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	(m + k) + x = m				by subs</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	m + (k + x) = m				by asso</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	m + (k + x) = m + 0 			by additive identity</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	0 = (k + x)						by Theorem 7.10 (#2)</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	k = x = 0						by Theorem 7.9 </OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	m + 0 = n						by subs</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	m = n							by additive identity</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>	</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>linespace{100}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+  </OMA>
+</OMATTR>

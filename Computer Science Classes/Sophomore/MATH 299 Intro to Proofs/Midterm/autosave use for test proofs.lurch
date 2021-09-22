@@ -1,0 +1,326 @@
+<OMATTR>
+  <OMATP>
+    <OMS cd="LurchCore" name="title"/>
+    <OMSTR>Logic Exam</OMSTR>
+    <OMS cd="LurchCore" name="author"/>
+    <OMSTR>Ken Monks</OMSTR>
+    <OMS cd="LurchCore" name="language"/>
+    <OMSTR></OMSTR>
+    <OMS cd="LurchCore" name="version"/>
+    <OMSTR>0</OMSTR>
+    <OMS cd="LurchCore" name="dependencies"/>
+    <OMSTR>urn:publicid:-:lurch.sourceforge.net:Math%20Core%20Package+by+Nathan%20Carter:en:v0.1 urn:publicid:-:lurch.sourceforge.net:Ruleset%20-%20Equality+by+Ken%20Monks::0 urn:publicid:-:lurch.sourceforge.net:Ruleset%20-%20Predicate%20Logic+by+Ken%20Monks::0 urn:publicid:-:lurch.sourceforge.net:Topic%20-%20Propositional%20Logic+by+Ken%20Monks::0</OMSTR>
+    <OMS cd="LurchUI" name="defaultFontSize"/>
+    <OMF hex="0000000000002840"/>
+    <OMS cd="LurchUI" name="ParagraphFormatSeparator"/>
+    <OMSTR>align{8}topmargin{18}bottommargin{18} family{DejaVu%20Sans} T T F F F F</OMSTR>
+    <OMS cd="MathCore" name="ShowGroupers"/>
+    <OMSTR>true</OMSTR>
+    <OMS cd="MathCore" name="AutoValidation"/>
+    <OMSTR>true</OMSTR>
+    <OMS cd="MathCore" name="ShowValidation"/>
+    <OMSTR>true</OMSTR>
+  </OMATP>
+  <OMA>
+    <OMS cd="LurchCore" name="document"/>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>family{DejaVu%20Sans}weight{75}size{29.9999}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>topmargin{30}bottommargin{22.5}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}weight{75}size{16.3636}</OMSTR>
+          </OMATP>
+          <OMSTR>IV. Cookie Problem</OMSTR>
+        </OMATTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>family{DejaVu%20Sans}weight{75}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{8}bottommargin{12}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}</OMSTR>
+          </OMATP>
+          <OMSTR>After a delicious meal at a Chinese restaurant, you open your fortune cookie after a delicious meal and find the following enigmatic saying:</OMSTR>
+        </OMATTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>family{DejaVu%20Sans}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{8}bottommargin{12}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>family{DejaVu%20Sans}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{8}bottommargin{12}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>																			If all who give love will receive love,</OMSTR>
+        </OMATTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>italic{T}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{132}bottommargin{12}linespace{48}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>then only one who does not love </OMSTR>
+        </OMATTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>italic{T}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{132}bottommargin{12}linespace{48}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>may be unloved.</OMSTR>
+        </OMATTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>italic{T}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{132}bottommargin{12}linespace{48}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>italic{T}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{132}bottommargin{12}linespace{48}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMSTR>You ponder this for a while and wonder if it is objectively true.  But you have been trained in the art of logical reasoning, so you decide to see if the fortune can be proved!  So you let </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>L</OMSTR>
+        </OMATTR>
+        <OMSTR>(</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>x</OMSTR>
+        </OMATTR>
+        <OMSTR>,</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>y</OMSTR>
+        </OMATTR>
+        <OMSTR>) mean &quot;</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>x</OMSTR>
+        </OMATTR>
+        <OMSTR> loves </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>y</OMSTR>
+        </OMATTR>
+        <OMSTR>&quot; where </OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>x</OMSTR>
+        </OMATTR>
+        <OMSTR>,</OMSTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>y</OMSTR>
+        </OMATTR>
+        <OMSTR> are variables representing people and get to work.</OMSTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{8}bottommargin{12}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}</OMSTR>
+          </OMATP>
+          <OMSTR>&#x2028;</OMSTR>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}weight{75}</OMSTR>
+          </OMATP>
+          <OMSTR>14.</OMSTR>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}</OMSTR>
+          </OMATP>
+          <OMSTR> Translate the fortune cookie saying above into a statement of formal logic, using only the operators of predicate logic with equality (and, or, not, &#x21d2;, &#x21d4;, &#x2200;, &#x2203;, =, &#x2203;!), the predicate </OMSTR>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>L </OMSTR>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}</OMSTR>
+          </OMATP>
+          <OMSTR>and variables whose type is &apos;people&apos;.</OMSTR>
+        </OMATTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>family{DejaVu%20Sans}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{8}bottommargin{12}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}</OMSTR>
+          </OMATP>
+          <OMSTR>	&#x2200;x,&#x2203;y L(x&#x21d4;y) &#x21d2; y</OMSTR>
+        </OMATTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>family{DejaVu%20Sans}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{8}bottommargin{12}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}weight{75}</OMSTR>
+          </OMATP>
+          <OMSTR>15.</OMSTR>
+        </OMATTR>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}</OMSTR>
+          </OMATP>
+          <OMSTR> Either prove the statement you came up with in #14, or explain why it cannot be proven by giving a counterexample.</OMSTR>
+        </OMATTR>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>family{DejaVu%20Sans}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{8}bottommargin{12}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+      </OMA>
+    </OMATTR>
+    <OMATTR>
+      <OMATP>
+        <OMS cd="LurchUI" name="charFormat"/>
+        <OMSTR>family{DejaVu%20Sans}</OMSTR>
+        <OMS cd="LurchUI" name="blockFormat"/>
+        <OMSTR>align{8}bottommargin{12}</OMSTR>
+      </OMATP>
+      <OMA>
+        <OMS cd="LurchUI" name="Block"/>
+        <OMATTR>
+          <OMATP>
+            <OMS cd="LurchUI" name="charFormat"/>
+            <OMSTR>family{DejaVu%20Sans}italic{T}</OMSTR>
+          </OMATP>
+          <OMSTR>Note: Anyone who gets #14 and #15 correct will win a virtual cookie.  It is a cookie problem, after all.</OMSTR>
+        </OMATTR>
+      </OMA>
+    </OMATTR>
+    <OMA>
+      <OMS cd="LurchUI" name="Block"/>
+    </OMA>
+  </OMA>
+</OMATTR>
