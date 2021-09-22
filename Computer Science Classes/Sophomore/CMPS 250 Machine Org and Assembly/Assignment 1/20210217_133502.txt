@@ -1,0 +1,10 @@
+Assignment Specification
+Jackowitz_Prof_Paul_M, Wed Feb 17, 2021, 13:35:02
+-------------------------------------------------
+Read the accompanying pdf description and recreate the examples with the other files.
+
+Files:
+  AS01.pdf
+  S2019.c
+  Strings.h
+  Strings.c
