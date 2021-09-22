@@ -1,0 +1,101 @@
+/* Temperature2.java (child class of Temperature)
+** An instance of this class has all the capabilities of an instance of its
+** parent class, but in addition supports expressing temperatures (and 
+** temperature changes) in terms of Fahrenheit degrees. 
+*/
+
+//names: Anthony Lucchese Steven Prosperino
+
+
+public class Temperature2 extends Temperature {
+
+   // constructor
+   // -----------
+
+   /* Initializes this Temperature to be the specified # of degrees,
+   ** where that measure is to be interpreted as on the Celsius scale if
+   ** the 2nd parameter is true but on the Fahrenheit scale if it is false.
+   */
+   public Temperature2(double degrees, boolean inCelsius) {
+      if(!inCelsius) {
+         setTo(fahToCel(degrees));
+      } else {
+         setTo(degrees);
+      }
+      
+   }  // SJM: Good consistent formatting. Just watch out for unnecessary
+      //      white space as in two lines above.
+
+   // observer
+   // --------
+
+   /* Returns this Temperature2's value as expressed on the Fahrenheit scale.
+   */
+   public double degreesFahrenheit() {
+      return celToFah(degrees());
+   }
+
+
+   // mutators
+   // --------
+
+   /* Sets this Temperature2 object to the specified number of degrees on
+   ** the Fahrenheit scale.
+   */
+   public void setToFah(double fahDeg) { 
+      setTo(fahToCel(fahDeg));
+      
+   }  // SJM: Unnecessary white space ^
+
+   /* Changes this Temperature2 object by the specified number of Fahrenheit
+   ** degrees.
+   */
+   public void changeByFah(double fahDelta) {
+      setTo(degrees() + fahDeltaToCelDelta(fahDelta));
+   }
+
+
+   // private stuff 
+   // -------------
+
+   // constants
+   // ---------
+
+   // The ratios describing changes in a temperature reading on the Celsius
+   // scale vs. that on the Fahrenheit scale.  (A change of five degree Celsius
+   // corresponds to a change of nine degrees Celsius.)
+   private static final double CEL_TO_FAH_RATIO = 5.0 / 9.0;
+   private static final double FAH_TO_CEL_RATIO = 9.0 / 5.0;
+
+   // The Fahrenheit temperature at which ice melts.
+   private static final double FAH_MELTING_POINT = 32.0;
+
+   // methods
+   // -------
+
+   /* Given a change in temperature as measured on the Fahrenheit scale,
+   ** returns the corresponding change as measured on the Celsius scale.
+   ** E.g., a change of 18 degrees on the Fahrenheit scale corresponds
+   ** to a change of 10 degrees on the Celsius scale.
+   */
+   private double fahDeltaToCelDelta(double fahDelta) {
+      return CEL_TO_FAH_RATIO * fahDelta;
+   }
+
+   /* Returns the equivalent, on the Celsius scale, of a temperature 
+   ** reading on the Fahrenheit scale.  E.g., a Fahrenheit temperature
+   ** of 68 degrees corresponds to 20 degrees Celsius.
+   */
+   private double fahToCel(double fahDeg) {
+      return CEL_TO_FAH_RATIO * (fahDeg - FAH_MELTING_POINT);
+   }
+
+   /* Returns the equivalent, on the Fahrenheit scale, of a temperature 
+   ** reading on the Celsius scale.  E.g., a Celsius temperature of 25 
+   ** degrees corresponds to 77 degrees Fahrenheit.
+   */
+   private double celToFah(double celDeg) {
+      return (FAH_TO_CEL_RATIO * celDeg) + FAH_MELTING_POINT;
+   }
+
+}

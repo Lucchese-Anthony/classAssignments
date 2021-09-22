@@ -1,0 +1,17 @@
+//names: Anthony Lucchese Steven Prosperino
+public class WarningCounter extends BoundedCounter{
+   
+   public WarningCounter(int init, int min, int max) { 
+      super(init, min, max); 
+   }
+  
+   // SJM: Your string here is false. I believe you meant to say "decrement" instead of "increment".
+   @Override
+   protected void decrementFromMin(){
+      throw new RuntimeException("Cannot increment a WarningCounter at its min"); 
+   } // SJM: Give your methods some room to breathe. (i.e. usually keeping a blank line between methods is preferred)
+   @Override
+   protected void incrementFromMax(){
+      throw new RuntimeException("Cannot increment a WarningCounter at its max"); 
+   }
+}

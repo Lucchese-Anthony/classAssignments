@@ -1,0 +1,10 @@
+packing density
+
+mass / amount filled
+
+6 / 10 = .6
+
+
+successful probes:
+
+(1 / .6)(ln(1 / 1-.6) = 1.52715122
